@@ -1,4 +1,5 @@
 # prac_04
+# by Jake Lee, 11/15
 # Try to fix the code to print out the correct information by changing the string.
 
 s = "Stry theae! whatome!"				# ("Strings are awesome!")

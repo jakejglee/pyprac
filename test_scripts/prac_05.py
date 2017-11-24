@@ -1,4 +1,5 @@
 # prac_05
+# by Jake Lee, 11/15
 # Change the variables in the first section, so that each if statement resolves as True.
 
 # change this code (it is so)
