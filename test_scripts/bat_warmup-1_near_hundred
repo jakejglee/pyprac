@@ -1,0 +1,10 @@
+# Warmup-1: near_hundred 
+# Exercise taken from codingbat.com
+# by Jake Lee, 11/24
+# DESCRIPTION: Given an int n, return True if it is within 10 of 100 or 200. Note: abs(num) computes the absolute value of a number.
+
+def near_hundred(n):
+  mydiff100 = 100 - n
+  mydiff200 = 200 - n
+  return (10 >= abs(mydiff100) or 10 >= abs(mydiff200))
+

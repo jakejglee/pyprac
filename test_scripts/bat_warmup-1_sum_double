@@ -1,0 +1,12 @@
+# Warmup-1: sum_double 
+# Exercise taken from codingbat.com
+# by Jake Lee, 11/24
+# DESCRIPTION: Given two int values, return their sum. Unless the two values are the same, then return double their sum.
+
+def sum_double(a, b):
+  my_sum = a + b
+  if a == b:
+    return my_sum * 2
+  else:
+    return my_sum
+

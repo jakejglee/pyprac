@@ -1,0 +1,12 @@
+# Warmup-1: diff21 
+# Exercise taken from codingbat.com
+# by Jake Lee, 11/24
+# DESCRIPTION: Given an int n, return the absolute difference between n and 21, except return double the absolute difference if n is over 21.
+
+def diff21(n):
+  my_diff = 21 - n
+  if my_diff < 0:
+    return 2 * abs(my_diff)
+  else:
+    return my_diff
+
