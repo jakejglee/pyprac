@@ -7,11 +7,11 @@ for i in $( cat testlist.txt ); do
 	if [ ! -e $i ]
 	then 
 		printf "Building $i...\n"
-		if [[ "$i" =~ "^.+warmup\-2.+$" ]]; then
+		if [[ grep "$i" : 'warmup\-2'` == 8 ]]; then
 			printf "\tadding header to $i.py...\n"
 			printf "# Warmup-2: " >> "$i.py"
 		fi
-		else if [[ "$i" =~ "^.+string\-1.+$" ]]; then
+		else if [[ "$i" =~ ^[.*string\-1.*]$" ]]; then
 			printf "\tadding header to $i.py...\n"
 			printf "# String-1: " >> "$i.py"
 		fi
